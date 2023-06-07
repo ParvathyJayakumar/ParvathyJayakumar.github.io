@@ -143,10 +143,10 @@
                 <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
-                <form name="'submit-to-google-sheet'">
+                <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your email" required>
-                    <textarea name="Message"  rows="6" placeholder="Your Mesage"></textarea>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
                 <span id="msg"></span>
@@ -193,9 +193,9 @@
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                msg.innerHTML = "Message Sent Successfully"
+                msg.innerHTML = "Message sent successfully"
                 setTimeout(function(){
-                    msg.innerHTML = ""
+                    msg.innerHTML = " "
                 },5000)
                 form.reset()
             })
