@@ -333,7 +333,7 @@ form input,form textarea{
     margin: 15px 0;
     color:#fff;
     font-size: 18px;
-    border border-radius: 6px;
+    border-radius: 6px;
 }
 
 form btn2{
@@ -392,9 +392,9 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
-    .sub-title[
+    .sub-title{
         font-size: 40px;
-    ]
+    }
     .about-col-1,.about-col-2{
         flex-basis: 100%;
     }
