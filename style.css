@@ -356,7 +356,7 @@ form .btn2{
 nav .fas{
     display: none;
 }
-@media only gscreen and (max-with: 600px){
+@media only screen and (max-with: 600px){
     #header{
         background-image: url("images/down2.jpg");
         background-size: cover;
