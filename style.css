@@ -358,7 +358,10 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url("images/bgm-removebg-preview.png");
+        background-image : url("images/bgm-removebg-preview.png");
+    }
+    .logo{
+        display: none;
     }
     .header-text{
         margin-top: 100%;
