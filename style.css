@@ -358,7 +358,7 @@ nav .fas{
 }
 @media only screen and (max-with: 600px){
     #header{
-        background-image: url("images/down2.jpg");
+        background-image: url("images/user2.png");
         background-size: cover;
     }
     .header-text{
