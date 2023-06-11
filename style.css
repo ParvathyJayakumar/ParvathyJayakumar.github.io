@@ -358,7 +358,7 @@ nav .fas{
 }
 @media only screen and (max-with: 600px){
     #header{
-        background-image: url("images/phone-background.png");
+        background-image: url("images/down2.jpg");
     }
     .header-text{
         margin-top: 100%;
@@ -386,7 +386,7 @@ nav .fas{
         display: block;
         margin: 25px;
     }
-    nav ul fas{
+    nav ul .fas{
         position: absolute;
         top: 25px;
         left: 25px;
