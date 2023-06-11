@@ -361,9 +361,6 @@ nav .fas{
         background-image : url("images/images\ \(1\).jpg");
         background-size: contain;
     }
-    .logo{
-        display: none;
-    }
     .header-text{
         margin-top: 100%;
         font-size: 20px;
