@@ -358,12 +358,11 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image : url("images/images\ \(2\).jpg");
-
+        background-image : url();
     }
     .header-text{
         margin-top: 100%;
-        font-size: 20px;
+        font-size: 30px;
     }
     .header-text h1{
         font-size: 30px;
@@ -372,6 +371,7 @@ nav .fas{
         display: block;
         font-size: 25px;
     }
+}
     nav ul{
         background: #ff004f;
         position: fixed;
